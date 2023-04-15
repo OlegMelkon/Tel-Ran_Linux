@@ -1,0 +1,7 @@
+   0 mkdir -p /home/humans/ /home/animals/dogs/ /home/animals/cats/ /home/animals/fish/
+   1 touch /tmp/adam.txt /tmp/evA.txt /home/animals/dogs/pluto.txt /home/animals/cats/garfield.txt /home/animals/fish/nemo.txt
+   2 cp /tmp/adam.txt /home/humans/
+   3 mv /tmp/evA.txt /opt/eve.txt
+   4 mv /opt/eve.txt /home/humans/
+   5 ls /home/humans/
+   6 history > homework_06042023.txt
