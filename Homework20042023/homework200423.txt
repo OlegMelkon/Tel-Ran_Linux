@@ -1,0 +1,14 @@
+   0 mkdir -p /home/homework/april/
+   1 cd /home/homework/april/
+   2 date > daten.txt
+   3 cat daten.txt
+   4 df -h / >> daten.txt
+   5 cat daten.txt
+   6 history | tail -5 >> daten.txt
+   7 cat daten.txt
+   8 cat /proc/cpuinfo
+   9 cat /proc/cpuinfo | grep X86 >> daten.txt
+  10 cat daten.txt
+  11 vi daten.txt
+  12 cat daten.txt
+  13 history > homework200423.txt
