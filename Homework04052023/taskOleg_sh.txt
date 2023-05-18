@@ -1,0 +1,14 @@
+#!/bin/bash
+
+mkdir -p /opt/210323_evening/melkonov/task040523/
+
+for run in {1..10}
+do
+echo -e $run $(date +'%d.%m.%y') > /opt/210323_evening/melkonov/task040523/file$run.txt
+sleep .5
+done
+
+mkdir -p /opt/210323_evening/melkonov/hwarchive/
+tar -czf /opt/210323_evening/melkonov/hwarchive/files1_10.tar.gz /opt/210323_evening/melkonov/task040523/
+
+echo "done"
